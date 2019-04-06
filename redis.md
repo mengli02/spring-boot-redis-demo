@@ -6,7 +6,6 @@
 	下载
     docker pull redis （速度较慢）
 	配置持久化启动
-	docker run --name redis -d redis redis-server --appendonly yes
 	docker run -p 6379:6379 -d redis redis-server --appendonly yes
 
 centos端口开启：
